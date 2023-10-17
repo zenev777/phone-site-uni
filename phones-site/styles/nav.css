@@ -1,0 +1,28 @@
+.nav-container{
+    background-color: rgb(180, 178, 163);
+    padding: 8px;
+    margin: 0px;
+}
+
+.nav-ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.nav-ul li a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 15px;
+}
+
+
+.nav-ul :hover{
+    background-color:  rgb(168, 166, 153);
+}
+
+.active{
+    background-color:  rgb(168, 166, 153);
+}

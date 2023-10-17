@@ -1,0 +1,63 @@
+.pinfo {
+    background: rgb(230, 227, 206);
+    width: 25em;
+    margin-top: 2em;
+
+}
+
+.legends {
+    border: 1px solid black;
+    padding: 3px;
+    background-color: rgb(209, 206, 183);
+}
+
+.form-container {
+    border: 1px solid black;
+    width: 70em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    margin-top: 20px;
+    /* box-shadow: inset 0px 0px 11px 0px rgba(0,0,0,1); */
+    box-shadow: -43px 22px 141px 3px rgba(0, 0, 0, 0.71);
+    
+}
+
+.form1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.legend-tittle {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.form-btn {
+    width: 80px;
+    background-color: rgb(230, 227, 206);
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.form-sectionss{
+    display: flex;
+    gap: 5em;
+    margin-bottom: 20px;
+}
+
+.first-form-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.second-form-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

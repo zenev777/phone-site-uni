@@ -1,0 +1,20 @@
+.photo-list{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-top: 50px;
+    padding-left:0px ;
+}
+
+.photo-list img{
+    width: 400px;
+    height: 300px;
+    aspect-ratio: auto;
+    border-radius: 15%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.home-page-text h1{
+    font-size: 30px;
+    text-align: center;
+}
