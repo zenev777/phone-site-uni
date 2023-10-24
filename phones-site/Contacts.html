@@ -29,58 +29,34 @@
             <div class="form-sectionss">
                 <div class="first-form-section">
                     <fieldset class="pinfo">
-                        <legend class="legends">Which phone brand do you prefer?</legend>
-                        <label for="">First Name</label><br>
-                        <input type="text" id="fname" value="Enter first name ..."><br>
-                        <label for="">Last Name</label><br>
-                        <input type="text" id="surname" value="Enter last name ..."><br>
-                        <label for="">Email</label><br>
-                        <input type="text" class="cemail" value="Enter email ..."><br>
+                        <label>Name:</label><br>
+                        <input type="text" class="con-name" value="Minimum 2 symbols..."><br>
+      
                     </fieldset>
 
                     <fieldset class="pinfo">
-                        <legend class="legends">Which phone brand do you prefer?</legend>
-                        <label><input type="radio" name="radio-btn"> Apple</label>
-                        <label><input type="radio" name="radio-btn"> Samsung</label>
-                        <label><input type="radio" name="radio-btn"> Motorola</label>
-                        <label><input type="radio" name="radio-btn"> Huawei</label>
+                        <label>Email:</label><br>
+                        <input type="text" class="con-e" value="Enter email adress..."><br>
+
                     </fieldset>
 
                     <fieldset class="pinfo">
-                        <legend class="legends">What do you use your phone for</legend>
-                        <label><input type="checkbox" name="radio-btn"> Conversations</label>
-                        <label><input type="checkbox" name="radio-btn"> Games</label>
-                        <label><input type="checkbox" name="radio-btn"> Internet search</label>
-                        <label><input type="checkbox" name="radio-btn"> Other...</label>
+                        <label>Phone number:</label><br>
+                        <input type="text" class="con-pn" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" value="Enter phone number 0xxx-xxx-xxx..."><br>
+
                     </fieldset>
                 </div>
 
                 <div class="second-form-section">
                     <fieldset class="pinfo">
-                        <legend class="legends">Which mobile operator are you?</legend>
-                        <label for="operator">Choose operator:</label>
-                        <select name="ops">
-                            <option value="a1">A1</option>
-                            <option value="yetel">Yetel</option>
-                            <option value="vivacom">Vivacom</option>
-                            <option value="bulsatcom">Bulsatcom</option>
-                        </select>
+                        <label>About:</label><br>
+                        <input type="text" class="con-e" value="Maximum 60 symbols.."><br>
                     </fieldset>
 
                     <fieldset class="pinfo">
-                        <legend class="legends">how much money would you spend?</legend>
-                        <label for="operator">Choose operator:</label>
-                        <select name="ops">
-                            <option value="a1">1500-1800 лв</option>
-                            <option value="yetel">1800-2200 лв</option>
-                            <option value="vivacom">2200 +</option>
-                        </select>
-                    </fieldset>
-
-                    <fieldset class="pinfo">
-                        <legend class="legends">Feedback</legend>
+                        <legend class="legends">Message</legend>
                         <textarea rows="5" cols="50"
-                            placeholder="Please, enter your opinion about the questions ..."></textarea>
+                            placeholder="Please, enter your message ..."></textarea>
                     </fieldset>
 
                     <button class="form-btn">Submit</button>
