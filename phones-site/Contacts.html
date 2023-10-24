@@ -5,30 +5,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
-    <title>Phones</title>
+    <title>Questions</title>
 </head>
 
 <body>
     <div class="nav-container">
         <nav class="nav-bar">
             <ul class="nav-ul">
-                <li><a href="Home.html" >Home</a></li>
+                <li><a href="Home.html">Home</a></li>
                 <li><a href="iphone15.html">Apple</a></li>
                 <li><a href="samsung.html">Samsung</a></li>
                 <li><a href="motorola.html">Motorola</a></li>
                 <li><a href="huawei.html">Huawei</a></li>
                 <li><a href="#" class="active">Contacts</a></li>
-                <li><a href="Quest.html">Quest Form</a></li>
+                <li><a href="Quest.html" >Quest Form</a></li>
             </ul>
         </nav>
     </div>
-    <div class="home-page-text">
-        <h1>The best phone to buy right now</h1>
-        <p class="p1">Bad news: flagship phones cost a small fortune these days. Good news: we can help you pick the
-            right one and get the most for your money.</p>
-        <p class="p2">The phones listed here have powerful processors and enough RAM to keep up for years, so it’s fair
-            to expect more than a handful of OS updates throughout the life of your phone.</p>
-       
+
+    <div class="form-container">
+        <Form class="form1">
+            <legend class="legend-tittle">Contacts</legend>
+            <div class="form-sectionss">
+                <div class="first-form-section">
+                    <fieldset class="pinfo">
+                        <legend class="legends">Which phone brand do you prefer?</legend>
+                        <label for="">First Name</label><br>
+                        <input type="text" id="fname" value="Enter first name ..."><br>
+                        <label for="">Last Name</label><br>
+                        <input type="text" id="surname" value="Enter last name ..."><br>
+                        <label for="">Email</label><br>
+                        <input type="text" class="cemail" value="Enter email ..."><br>
+                    </fieldset>
+
+                    <fieldset class="pinfo">
+                        <legend class="legends">Which phone brand do you prefer?</legend>
+                        <label><input type="radio" name="radio-btn"> Apple</label>
+                        <label><input type="radio" name="radio-btn"> Samsung</label>
+                        <label><input type="radio" name="radio-btn"> Motorola</label>
+                        <label><input type="radio" name="radio-btn"> Huawei</label>
+                    </fieldset>
+
+                    <fieldset class="pinfo">
+                        <legend class="legends">What do you use your phone for</legend>
+                        <label><input type="checkbox" name="radio-btn"> Conversations</label>
+                        <label><input type="checkbox" name="radio-btn"> Games</label>
+                        <label><input type="checkbox" name="radio-btn"> Internet search</label>
+                        <label><input type="checkbox" name="radio-btn"> Other...</label>
+                    </fieldset>
+                </div>
+
+                <div class="second-form-section">
+                    <fieldset class="pinfo">
+                        <legend class="legends">Which mobile operator are you?</legend>
+                        <label for="operator">Choose operator:</label>
+                        <select name="ops">
+                            <option value="a1">A1</option>
+                            <option value="yetel">Yetel</option>
+                            <option value="vivacom">Vivacom</option>
+                            <option value="bulsatcom">Bulsatcom</option>
+                        </select>
+                    </fieldset>
+
+                    <fieldset class="pinfo">
+                        <legend class="legends">how much money would you spend?</legend>
+                        <label for="operator">Choose operator:</label>
+                        <select name="ops">
+                            <option value="a1">1500-1800 лв</option>
+                            <option value="yetel">1800-2200 лв</option>
+                            <option value="vivacom">2200 +</option>
+                        </select>
+                    </fieldset>
+
+                    <fieldset class="pinfo">
+                        <legend class="legends">Feedback</legend>
+                        <textarea rows="5" cols="50"
+                            placeholder="Please, enter your opinion about the questions ..."></textarea>
+                    </fieldset>
+
+                    <button class="form-btn">Submit</button>
+                </div>
+            </div>
+
+        </Form>
+    </div>
+
 </body>
 
 </html>
