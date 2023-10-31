@@ -42,6 +42,7 @@
 .dropdown {
   position: relative;
   display: block;
+  width: 97px;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -50,7 +51,6 @@
   position: absolute;
   z-index: 1;
   background-color: rgb(180, 179, 169);
-  width: 102.94px;
 }
 
 /* Links inside the dropdown */
